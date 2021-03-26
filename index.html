@@ -2,68 +2,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IsStrongman</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>I s S t r o n g m a n</title>
+
+    
 </head>
 
-<style>
-    body { background-image: url(image/isstrongman.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-color: black;
-       
-     margin: 0%;
-     padding: 0%;
-    }
-
-    header{
-        background-color: black;
-        background-color: transparent !important;
-    padding: 10%;
-text-align: center;
-font-size: larger;
-font-family: 'Barlow', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-weight: 400;
-
-
-}     
-
-section {
-    background-color: goldenrod;
-padding: 10px
-20px;
-text-align: center;
-font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-}
-
-footer{
-    background-color: gray;
-    padding: 10px
-    20px;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-}
-</style>
-
-
-
 <body>
-    <h1> <header style="color:goldenrod;" >IsSTRONGMAN <h1> 
-        <h6><p style="font-size: medium;">PERSONAL TRAINER | WEIGHT LOSS COACH | ATHLETE</p></h6>
-    </header> 
+    <header class="header">
+        <h1 class="header__title">IsSTRONGMAN <h1> 
+        <h6 class="header__subtitle">PERSONAL TRAINER | WEIGHT LOSS COACH | ATHLETE</h6>
+    </header>   
+
+    <section class="main-section">
+        <section class="center-section">
+            <h2 class="slogan"> GET FIT.</h2>
+            <h2 class="slogan"> LOSE WEIGTH. </h2> 
+            <h2 class="slogan slogan_third"> DISCOVER YOUR GREATNESS. </h2>
+        </section>  
+        <section class="center-section">
+            <div class="about">
+                <div class="about-photo">
+                    <img src="img/Istrongmann.jpg" alt="" class="about-photo__image">
+                </div>
+                
+                <div class="about-text">
+
+                <p><i> Hey there!</i></p>
+
+                <br>
+
+            <h2> <p><b> I’M YAHYA.</b></p> </h2>
+
+            <br>
+                    
+                <p><b> An athlete and a professional fitness and lifestyle coaсh for driven successful men and a common gender body transformation specialist.            
+                </b></p>
+
+                <br>
+
+                <p> 
+                My experience and skills are in the field of weight loss, lean muscle gain, strength- and condition training, injury prevention, wellness coaching and explosive performance  training.
+                </p>
+
+            <br>
+
+                <p>
+                <b>My personal challenges</b>
+                </p>
+            
+                <p>
+                I spent years going up and down struggling with the right training program to maximise my performance, physique results and food issues, meals that are meant to help me reach my transformation goal.
+                </p>
+
+                <br>
+                
+                <p>
+                I was no longer my confident self and was beginning to doubt if my personal training clients trusted me because of my shape. I needed to get motivated in order to inspire others to do the same, so I really looked inward and found it in me to pull myself back from probably the worst shape in my life.
+                </p>
+
+                <br>
+            
+                <p>
+                8 months later I  finished writing and editing my first ever fitness and lifestyle E-book, aimed towards anyone tired of spending countless hours training with weights and doing cardio, talk-less of the frustrating counting calories + macros . 
+                </p>
+
+                <br>
+
+                <p>
+                The <strong>IsStrongman fitness and lifestyle E-book </strong> is designed for beginner / intermediate / advanced  fitness level at 3-5 days workout routine per week with my meal plan at glance. 
+                </p>
+
+                <p>
+                    If you’d like a routine that is custom-tailored to the equipments you have available, your schedule, fitness
+                    level, etc, contact me via instagram <strong><a href="https://www.instagram.com/is_strongman/">@Isstrongman</a></strong> or  please e-mail  at <strong>Isstrongman@gmail.com</strong> and i’ll reply with
+                    options that may be better suited for you. 
+                </p> 
+            </div>
+            </div><!-- .about -->
+
+            <div class="donation">
+                <div id="smart-button-container" class="paypal-container">
+                    <div class="paypal-description">
+                        <label class="paypal-label" for="description">Take a minute to buy me a protein bar.  </label>
+                        <div class="paypay-money-wrap">
+                            <input class="paypal-input" type="text" name="descriptionInput" id="description" maxlength="127" value="" placeholder="Reason to buy">
+                        </div>
+                    </div>
+                    <p id="descriptionError" class="paypal-error" style="visibility: hidden;">Please enter a description</p>
+                    <div style="text-align: center">
+                        <label class="amount-text" for="amount">
+                            Please consider a small amount of donation. 
+                        </label>
+                            
+                        <p>IsSTRONGMAN E-BOOK is free, but was not free to create.</p>
+
+                        <p> Any amount makes a huge difference.  Thank you! </p>
+                        
+                        <div class="paypay-money-wrap">
+                            <input class="paypal-input paypal-money" name="amountInput" type="number" id="amount" value="" placeholder="1.00">
+                            <span> EUR</span>
+                        </div>
+                    </div>
+                    <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+                    <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
+                    <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+                    
+                    <a class= "download"
+                href="https://drive.google.com/file/d/1OZoIHFct_ViLKx7NrJ2kJ8fyAlra13N3/view?usp=sharing">DONATE & DOWNLOAD FREE E-BOOK</a>
+
+                    <div style="text-align: center; margin-top: 14px;" id="paypal-button-container"></div>
+                    
+                </div>
+            </div>
+        </section>
+        <div class="circle_wrap">
+            <div class="circle__cell">
+                <a href="https://www.medicalnewstoday.com/articles/322345#takeaway" class="circle circle_1" target="_blank"></a>
+                <a class= "loseweight-link" href="https://www.medicalnewstoday.com/articles/322345#takeaway" target="_blank">I want to lose weight</a>
+            </div>
+            <div class="circle__cell">
+                <a href="https://www.abc.net.au/news/health/2016-09-06/gym-habits-you-need-to-break/7814232" class="circle circle_2" target="_blank"></a>
+                <a class= "loseweight-link" href="https://www.abc.net.au/news/health/2016-09-06/gym-habits-you-need-to-break/7814232" target="_blank">Breaking bad gym habits</a>
+            </div>
+            <div class="circle__cell">
+                <a href="https://www.muscleandstrength.com/articles/43-easy-high-protein-recipes" class="circle circle_3" target="_blank"></a>
+                <a class= "loseweight-link" href="https://www.muscleandstrength.com/articles/43-easy-high-protein-recipes" target="_blank">Hight protein recipes</a>
+            </div>
+        </div>
+    </section>
+
+
     
 
+    
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=EUR" data-sdk-integration-source="button-factory"></script>
+    <script src="js/paypal_btn.js"></script>
+</body>
 
-    <h2>    <section>GET FIT.</section>     </h2>
-      <h2>  <section>LOSE WEIGTH.</section>  </h2> 
-<h2>   <footer>DISCOVER YOUR GREATNESS.</footer>   </h2>
-
-
-
-</body>    
 
 
 </html>

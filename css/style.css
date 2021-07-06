@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +47,10 @@ a:hover {
     opacity: 0.8;
     background: linear-gradient(to bottom, #000000 56%, #daa520 90%);
 }
+.header__title { 
+    font-family: 'Black Ops One', cursive;
+}
+
 
 .header {
     padding: 50px 0 0; 
@@ -246,6 +253,58 @@ a:hover {
     position: relative;
 }
 
+/*Footer*/
+.footer {
+    max-width: 1600px;
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid #666;
+}
+
+.footer__title {
+    text-align: center;
+}
+
+
+.contact {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    margin: 20px auto 0;
+}
+
+.contact__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact__link {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact__link:hover {
+    color: #111;
+}
+
+.contact__icon {
+    display: inline-block;
+    width: 25px;
+}
+
+.contact__icon svg {
+    width: 100%;
+}
+
+.contact__icon path {
+    fill: #000;
+}
 
 
 /*Tablet*/
